@@ -1,0 +1,117 @@
+.fontRed{
+	color: blue;
+}
+
+	
+
+
+
+/* article h1{
+	border-bottom: 2px solid #000;
+	padding:10px;
+} */
+
+
+/* スタイルの取り消し */
+ /* .title{
+	color: green !important;
+} */
+
+#id{
+	color: black;
+}
+
+
+.no-border{
+	color: red;
+} 
+
+
+
+/* ③IDセレクタ */
+#primary{
+	color: green;
+}
+
+.primary{
+	color: blue;
+}
+
+h1{
+	color: green;
+}
+
+/* ④クラスセレクタ、属性セレクタ、擬似クラス */
+.primary{
+	color: green;
+}
+
+h1{
+	color: blue;
+}
+
+
+/* １つのクラスセレクタと２つのクラスセレクタ */
+div .color{
+	color: green;
+}
+
+.color{
+	color: blue;
+}
+
+/* OOCSS */
+/* NGパターン */
+/*　 */
+.success-message{
+	border: 2px solid #494;
+	border-radius: 6px;
+	padding: 10px;
+	background-color: green;
+	font-weight: bold;
+	font-size: 16px;
+	color: #333;
+}
+.warning-message{
+	border: 2px solid #DD0;
+	border-radius: 6px;
+	padding: 10px;
+	background-color: yellow;
+	font-weight: bold;
+	font-size: 16px;
+	color: #333;
+}
+.error-message{
+	border: 2px solid #C44;
+	border-radius: 6px;
+	padding: 10px;
+	background-color: red;
+	font-weight: bold;
+	font-size: 16px;
+	color: #333;
+}
+
+/* OKパターン */
+/* モデルを作成する */
+.alert{
+	border: 2px solid #333;
+	border-radius: 6px;
+	padding: 10px;
+	background-color: #FFF;
+	font-weight: bold;
+	font-size: 16px;
+	color: #333;
+}
+.success{
+	border-color: #494;
+	background-color: green;
+}
+
+.warning{
+	border-color: #DD0;
+	background-color: yellow;
+}
+.error{
+	border-color: #C44;
+	background-color: red;
+}
